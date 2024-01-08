@@ -1,0 +1,15 @@
+.flexContainer {
+  display: flex; /* establish flex container */
+  flex-direction: column; /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center; /* center items horizontally, in this case */
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+.flexContainer video {
+  width: 700px;
+  max-width: 100%;
+  display: block;
+  mask-image: -webkit-radial-gradient(white, black);
+}
